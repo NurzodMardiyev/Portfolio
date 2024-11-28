@@ -9,6 +9,17 @@ import menbumen from "../images/aboutmen.png";
 import menbumendark from "../images/aboutmendark.png";
 
 export default function About() {
+  const downloadPDF = () => {
+    // PDF faylning manzili (agar serverda bo'lsa, URL ishlatish mumkin)
+    const pdfUrl = "../../public/files/Nurzod Mardiyev (4).docx"; // fayl public papkada joylashgan
+
+    // Faylni yuklab olish
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "NurzodResume.docx"; // Faylni nomi
+    link.click();
+  };
+
   return (
     <div id="about" className="border-b dark:border-[#55E5A4] border-gray-800">
       <div className="container  md:max-w-8xl px-5 md:px-auto mx-auto text-gray-800 dark:text-[#C7C7C7] flex md:flex-row flex-col-reverse justify-between items-center py-20 gap-20">
@@ -105,7 +116,10 @@ export default function About() {
             </div>
           </div>
           <div className="flex md:block justify-center mt-4">
-            <button className="md:py-[10px] py-[5px] px-[16px] md:text-[20px] text-[16px] md:border-[3px] border-2 dark:border-[#55E5A4] border-gray-700 font-medium dark:text-[#55E5A4] text-gray-700 mt-4">
+            <button
+              onClick={downloadPDF}
+              className="md:py-[10px] py-[5px] px-[16px] md:text-[20px] text-[16px] md:border-[3px] border-2 dark:border-[#55E5A4] border-gray-700 font-medium dark:text-[#55E5A4] text-gray-700 mt-4"
+            >
               Resume Dawnload
             </button>
           </div>

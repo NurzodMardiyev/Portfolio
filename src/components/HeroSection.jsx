@@ -127,7 +127,7 @@ export default function HeroSection() {
             </RouterLink>
 
             <RouterLink
-              to="email:nurzodbekmardiyev1306@gmail.com"
+              to="https://mail.google.com/mail/u/0/#inbox"
               className="modalContact px-10 py-4 md:text-[20px] text-[14px] font-semibold gap-4 justify-center flex items-center border border-[#55E5A4] dark:bg-gray-700  dark:text-white rounded-xl w-full"
             >
               <MdEmail className="md:text-[25px] text-[16px]" />
