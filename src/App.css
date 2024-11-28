@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=MonteCarlo&display=swap");
+
+
+.hero_title {
+  font-family: "Satoshi-Variable", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  background-color: #F0F0F4;
+}
+html.dark {
+  background-color: #151C25;
+}
+.logo {
+  font-family: "MonteCarlo", cursive;
+}
+.darkModeButton .focus\:ring-4:focus {
+  --tw-ring-shadow: none,
+  box-shadow: none
+}
+.header-img {
+  clip-path: polygon(0% 0%, 100% 0%, 80% 100%,  20% 100%);
+  border-radius: 40px;
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  width: 700px;
+  background-color: #55E5A4;
+}
+.header-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  /* background: inherit; Bir xil rang */
+  border-radius: 50px; /* Burchaklarni yumaloqlaydi */
+}
+.dark :where(.css-dev-only-do-not-override-1x0dypw).ant-input-outlined:focus-within {
+  background-color: #374151;
+  border: none
+}
+:where(.css-dev-only-do-not-override-1x0dypw).ant-input-outlined:focus-within {
+  background-color: #eff5ff;
+  border: none
+}
+[type='text']:focus , [type='email']:focus{
+  --tw-ring-color: inherit !important;
+  outline: 0px solid transparent; 
+    outline-offset: 0px;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+--tw-ring-offset-color: #fff; 
+    --tw-ring-color: #1C64F2;
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    border:none;
+}
+[type='text']::placeholder , [type='email']::placeholder {
+  color: #d5d5d5ab
+}
+textarea::placeholder {
+  color: #d5d5d5ab !important
+}
+.contact {
+  background: url()
+}
