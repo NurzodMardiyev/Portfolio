@@ -12,7 +12,10 @@ export default function ContactMe() {
     console.log(value);
   };
   return (
-    <div className="pb-[30px] border-b dark:border-b-[#55E5A4] border-b-gray-700">
+    <div
+      id="contact"
+      className="pb-[30px] border-b dark:border-b-[#55E5A4] border-b-gray-700"
+    >
       <div className="container  md:max-w-8xl px-5 md:px-auto mx-auto text-gray-800 dark:text-[#C7C7C7] flex justify-between items-center py-20 gap-20">
         <div className="flex md:flex-row flex-col w-full gap-10 contact">
           <div className="md:w-1/2 w-full">

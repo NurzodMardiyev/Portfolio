@@ -5,7 +5,10 @@ import tailwind from "../images/tailwind.png";
 
 export default function Proects() {
   return (
-    <div className="border-b dark:border-b-[#55E5A4] border-b-gray-800 mb-4">
+    <div
+      id="work"
+      className="border-b dark:border-b-[#55E5A4] border-b-gray-800 mb-4"
+    >
       <div className="container  md:max-w-8xl px-5 md:px-auto mx-auto text-[#C7C7C7] py-[42px]">
         <div className="flex w-full flex-col items-center md:mb-[110px] mb-[50px]">
           <h2
@@ -59,10 +62,10 @@ export default function Proects() {
               </div>
               <div className="flex gap-6 mt-5">
                 <button className="md:text-[20px] text-[14px] md:px-[18px] md:py-[10px] px-[10px] py-[5px] border">
-                  Live versiyasi
+                  Github code
                 </button>
                 <button className="md:text-[20px] text-[14px] md:px-[18px] md:py-[10px] px-[10px] py-[5px] border">
-                  Tashrif buyurish
+                  Tashrif buyuring
                 </button>
               </div>
             </div>

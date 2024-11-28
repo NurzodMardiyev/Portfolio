@@ -68,3 +68,12 @@ textarea::placeholder {
 .contact {
   background: url()
 }
+.dark :where(.css-dev-only-do-not-override-1x0dypw).ant-modal .ant-modal-content , .dark :where(.css-dev-only-do-not-override-1x0dypw).ant-modal .ant-modal-header  {
+  background: #374151;
+}
+.dark .ant-modal-title , .dark .ant-modal-close-icon{
+  color: #fff !important;
+}
+.modalContact:hover {
+  color: #55E5A4 !important
+}

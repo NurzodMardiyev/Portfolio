@@ -1,15 +1,16 @@
-import react from "../images/react.png";
+import react from "../images/react.svg";
 import python from "../images/python.png";
-import js from "../images/js.png";
+import js from "../images/js.svg";
 import tailwind from "../images/tailwind.png";
-import html from "../images/html.png";
-import css from "../images/css.png";
+import html from "../images/sass.svg";
+import css from "../images/ts.svg";
+import vue from "../images/vue-logo.svg";
 import menbumen from "../images/aboutmen.png";
 import menbumendark from "../images/aboutmendark.png";
 
 export default function About() {
   return (
-    <div className="border-b dark:border-[#55E5A4] border-gray-800">
+    <div id="about" className="border-b dark:border-[#55E5A4] border-gray-800">
       <div className="container  md:max-w-8xl px-5 md:px-auto mx-auto text-gray-800 dark:text-[#C7C7C7] flex md:flex-row flex-col-reverse justify-between items-center py-20 gap-20">
         <div className="md:w-1/2 w-full md:p-20 ps-0">
           <img
@@ -42,14 +43,15 @@ export default function About() {
             </div>
           </div>
           <div>
-            <p className="md:text-[20px] text-[15px] dark:text-[#A8A8A8] text-gray-700 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus architecto vitae accusamus commodi minus quo
-              cupiditate sunt, placeat magnam itaque ad quisquam veniam iure?
-              Qui magnam dolores quia id veniam autem maiores fugit, vitae
-              dolorem cupiditate quae ducimus, illo sed. Ipsam quod ex totam
-              maxime? Facilis nulla alias ab veritatis eligendi velit officiis
-              amet.
+            <p className="md:text-[20px] text-[15px] dark:text-[#A8A8A8] text-gray-700 mt-4 mb-8">
+              Men tajribali frontend dasturchiman. React, Vue, Tailwind CSS, va
+              GSAP kabi texnologiyalarda ishlayman. Shu jumladan, UI
+              komponentlar yaratishda Ant Design, Flowbite va MUI Design kabi
+              kutubxonalardan samarali foydalanaman. Loyihalarni
+              optimallashtirish va muammolarni hal qilishda kuchliman.
+              Shuningdek, adaptiv dizaynlar yaratib, platformalararo
+              muvofiqlikni ta’minlayman. Mening maqsadim – innovatsion yondashuv
+              orqali foydalanuvchi tajribasini maksimal darajada oshirish.
             </p>
           </div>
           <div className="flex  justify-between my-4 mt-[17px] mb-[37px] md:mb-auto md:mt-auto">
@@ -57,15 +59,31 @@ export default function About() {
               <img
                 src={react}
                 alt="reactjs"
-                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px]"
+                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px] mb-2"
               />
               <p className="md:text-[18px] text-[14px]">React</p>
             </div>
             <div className="flex flex-col justify-center items-center">
               <img
+                src={vue}
+                alt="Vue"
+                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px] mb-2"
+              />
+              <p className="md:text-[18px] text-[14px]">Vue js</p>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <img
+                src={css}
+                alt="TypeScript"
+                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px] mb-2"
+              />
+              <p className="md:text-[18px] text-[14px]">TypeScript</p>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <img
                 src={js}
                 alt="js"
-                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px]"
+                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px] mb-2"
               />
               <p className="md:text-[18px] text-[14px]">JavaScript</p>
             </div>
@@ -73,36 +91,20 @@ export default function About() {
               <img
                 src={tailwind}
                 alt="tailwind"
-                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px]"
+                className="md:w-[80px] w-[35px] h-[35px] md:h-[70px] mb-2"
               />
               <p className="md:text-[18px] text-[14px]">Tailwind</p>
             </div>
             <div className="flex flex-col justify-center items-center">
               <img
                 src={html}
-                alt="html"
-                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px]"
+                alt="Sass"
+                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px] mb-2"
               />
-              <p className="md:text-[18px] text-[14px]">Html</p>
-            </div>
-            <div className="flex flex-col justify-center items-center">
-              <img
-                src={css}
-                alt="css"
-                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px]"
-              />
-              <p className="md:text-[18px] text-[14px]">Css</p>
-            </div>
-            <div className="flex flex-col justify-center items-center">
-              <img
-                src={python}
-                alt="python"
-                className="md:w-[70px] w-[35px] h-[35px] md:h-[70px]"
-              />
-              <p className="md:text-[18px] text-[14px]">Python</p>
+              <p className="md:text-[18px] text-[14px]">Sass</p>
             </div>
           </div>
-          <div className="flex md:block justify-center">
+          <div className="flex md:block justify-center mt-4">
             <button className="md:py-[10px] py-[5px] px-[16px] md:text-[20px] text-[16px] md:border-[3px] border-2 dark:border-[#55E5A4] border-gray-700 font-medium dark:text-[#55E5A4] text-gray-700 mt-4">
               Resume Dawnload
             </button>
