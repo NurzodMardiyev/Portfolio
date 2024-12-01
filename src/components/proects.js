@@ -1,9 +1,9 @@
 import react from "../images/react.svg";
 import js from "../images/js.svg";
 import tailwind from "../images/tailwind.png";
-import pr1 from "../images/pr1.png";
-import pr2 from "../images/csti.png";
-import pr3 from "../images/server.png";
+import pr1 from "../images/pr1.webp";
+import pr2 from "../images/csti.webp";
+import pr3 from "../images/server.webp";
 
 export const proects = [
   {

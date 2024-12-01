@@ -1,12 +1,11 @@
 import react from "../images/react.svg";
-import python from "../images/python.png";
 import js from "../images/js.svg";
 import tailwind from "../images/tailwind.png";
 import html from "../images/sass.svg";
 import css from "../images/ts.svg";
 import vue from "../images/vue-logo.svg";
-import menbumen from "../images/aboutmen.png";
-import menbumendark from "../images/aboutmendark.png";
+import menbumen from "../images/aboutmen.webp";
+import menbumendark from "../images/aboutmendark.webp";
 
 export default function About() {
   const downloadPDF = () => {
