@@ -50,7 +50,7 @@ export const proects = [
       },
     ],
     github: "https://github.com/NurzodMardiyev/CSTI.uz",
-    link: "https:/csti.uz",
+    link: "https://csti.uz/",
   },
   {
     id: 3,
