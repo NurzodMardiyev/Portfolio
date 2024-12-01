@@ -10,7 +10,7 @@ import menbumendark from "../images/aboutmendark.webp";
 export default function About() {
   const downloadPDF = () => {
     // PDF faylning manzili (agar serverda bo'lsa, URL ishlatish mumkin)
-    const pdfUrl = "../../public/files/Nurzod Mardiyev (4).docx"; // fayl public papkada joylashgan
+    const pdfUrl = "/files/Nurzod Mardiyev (4).docx"; // fayl public papkada joylashgan
 
     // Faylni yuklab olish
     const link = document.createElement("a");
