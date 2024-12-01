@@ -243,7 +243,7 @@ export default function HeroSection() {
               Nurzod Mardiyev
             </span>
             <h1 className="md:text-[42px] text-[26px] hero_title  max-w-[900px] dark:text-[#55E5A4] text-gray-800">
-              Frontend Developer (React && Vue)x
+              Frontend Developer (React && Vue)
             </h1>
             <p className="md:text-[20px] text-[16px] max-w-[600px] md:mb-[20px]  my-[10px] font-500 dark:text-[#A9A9A9] text-gray-700">
               Men Vue, React, Ant Design va Tailwind CSS bilan ishlovchi
