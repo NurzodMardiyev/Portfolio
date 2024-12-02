@@ -119,7 +119,7 @@ export default function About() {
               onClick={downloadPDF}
               className="md:py-[10px] py-[5px] px-[16px] md:text-[20px] text-[16px] md:border-[3px] border-2 dark:border-[#55E5A4] border-gray-700 font-medium dark:text-[#55E5A4] text-gray-700 mt-4"
             >
-              Resume Dawnload
+              Resumeni yuklash
             </button>
           </div>
         </div>
