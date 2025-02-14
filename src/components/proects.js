@@ -32,7 +32,7 @@ export const proects = [
       },
     ],
     github: "https://github.com/NurzodMardiyev/pressa.ed.uz",
-    link: "https://pressa-edu-uz.vercel.app/",
+    link: "https://pressa.e-edu.uz/",
   },
   {
     id: 2,
