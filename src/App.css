@@ -38,11 +38,11 @@ html.dark {
   /* background: inherit; Bir xil rang */
   border-radius: 50px; /* Burchaklarni yumaloqlaydi */
 }
-.dark :where(.css-dev-only-do-not-override-1x0dypw).ant-input-outlined:focus-within {
+.dark .ant-input-outlined:focus-within {
   background-color: #374151;
   border: none
 }
-:where(.css-dev-only-do-not-override-1x0dypw).ant-input-outlined:focus-within {
+.ant-input-outlined:focus-within {
   background-color: #eff5ff;
   border: none
 }
@@ -66,7 +66,7 @@ textarea::placeholder {
   color: #d5d5d5ab !important
 }
 
-.dark :where(.css-dev-only-do-not-override-1x0dypw).ant-modal .ant-modal-content , .dark :where(.css-dev-only-do-not-override-1x0dypw).ant-modal .ant-modal-header  {
+.dark .ant-modal .ant-modal-content , .dark .ant-modal .ant-modal-header  {
   background: #374151 !important;
 }
 .dark .ant-modal-title , .dark .ant-modal-close-icon{
@@ -75,7 +75,7 @@ textarea::placeholder {
 .modalContact:hover {
   color: #55E5A4 !important
 }
-.dark :where(.css-dev-only-do-not-override-1x0dypw).ant-notification .ant-notification-notice-wrapper  {
+.dark .ant-notification .ant-notification-notice-wrapper  {
   background: #374151 !important;
   color: #fff !important
 }
