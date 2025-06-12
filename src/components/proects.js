@@ -6,9 +6,11 @@ import pr2 from "../images/csti.webp";
 import pr3 from "../images/server.webp";
 import pr4 from "../images/pr4.jpg";
 import pr5 from "../images/pr5.jpg";
+import pr6 from "../images/pr6.jpg";
 import antd from "../images/ant.png";
 import vite from "../images/Vitejs-logo.svg.png";
 import gsap from "../images/gsap.png";
+import ts from "../images/ts.png";
 
 export const proects = [
   {
@@ -125,5 +127,28 @@ export const proects = [
     ],
     github: "https://github.com/NurzodMardiyev/uzasa",
     link: "https://uzasauz-nurzods-projects-a32b0072.vercel.app/",
+  },
+  {
+    id: 6,
+    img: pr6,
+    title: "Imaan school",
+    description:
+      "Imaan school uchun o'quvchilarni test orqali tekshirib uning darajasini va nimalarda xato qilayotganligini bilib oluvchi sayt",
+    tecnoligics: [
+      {
+        id: 600,
+        img: react,
+      },
+      {
+        id: 601,
+        img: ts,
+      },
+      {
+        id: 602,
+        img: vite,
+      },
+    ],
+    github: "https://github.com/NurzodMardiyev/imaan-school",
+    link: "https://imaan-school-ijuf.vercel.app/",
   },
 ];
