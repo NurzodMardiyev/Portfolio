@@ -97,25 +97,25 @@ export default function ContactMe() {
             </p>
             <div className="flex gap-4 md:text-[22px] text-[16px] mt-8 dark:text-[#55E5A4] text-white">
               <Link
-                to="/"
+                to="https://www.linkedin.com/in/nurzod-mardiyev-35aaaa235/"
                 className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-full flex justify-center items-center bg-gray-700"
               >
                 <FaLinkedinIn />
               </Link>
               <Link
-                to="/"
+                to="https://github.com/NurzodMardiyev"
                 className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-full flex justify-center items-center bg-gray-700"
               >
                 <FaGithub />
               </Link>
               <Link
-                to="/"
+                to="https://x.com/MardiyevN"
                 className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-full flex justify-center items-center bg-gray-700"
               >
                 <BsTwitterX />
               </Link>
               <Link
-                to="/"
+                to="https://www.instagram.com/nurzodbekmardiyev/"
                 className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-full flex justify-center items-center bg-gray-700"
               >
                 <FaInstagram />
